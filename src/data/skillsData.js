@@ -6,7 +6,7 @@ export const skillsData = [
     'Aws',
     'Node JS',
     'Ubuntu',
-    'MongoDB',,
+    'MongoDB',
     'MySQL',
     'PostgreSQL',
     'Redis',
