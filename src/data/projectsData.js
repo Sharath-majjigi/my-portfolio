@@ -1,35 +1,32 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
+        projectName: 'Mail Box',
+        projectDesc: 'This project is for github users to connect and have discussions on opensource projects , just like in Email',
+        tags: ['Java', 'Springboot', 'SAAS'],
+        code: 'https://github.com/Sharath-majjigi/MailBox/tree/main',
+        demo: '',
+        image: 'https://i.ibb.co/vBX8DCT/mailmatters-heroimg.png'
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
+        projectName: 'Url Shortener',
+        projectDesc: 'A url-shortening application built using GO having Ratelimit and Reset functionality',
+        tags: ['Go', 'Redis', 'Docker'],
+        code: 'https://github.com/Sharath-majjigi/go-redis-url-shotener',
+        demo: '',
+        image: 'https://i.ibb.co/tDsqvhL/URL-Shortener-Meaning-Benefits-When-To-Use.jpg'
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
+        projectName: 'BlogHub',
+        projectDesc: 'A Blog app built with springboot in which users can write blogs and interact with others blog',
+        tags: ['Java', 'Postgresql', 'JWT'],
+        code: 'https://github.com/Sharath-majjigi/BlogHub/tree/main',
+        demo: '',
+        image: 'https://i.ibb.co/BVcBPqB/start-blogging.jpg'
     }
 ]
 

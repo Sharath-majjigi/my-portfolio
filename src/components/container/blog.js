@@ -1,11 +1,9 @@
 import { makeStyles } from '@mui/styles';
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../contexts/theme-context';
-import UseBlog from '../../hooks/useBlog';
 import BlogUI from '../core-ui/blog/blog-ui';
 
 function Blog() {
-    const { blogs } = UseBlog()
     const { theme } = useContext(ThemeContext);
 
     const useStyles = makeStyles(() => ({
@@ -36,7 +34,7 @@ function Blog() {
     const classes = useStyles();
 
     return (
-        <BlogUI classes={classes} blogData={blogs} />
+        <BlogUI classes={classes} blogData={""} />
     )
 }
 
